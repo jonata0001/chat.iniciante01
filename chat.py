@@ -6,7 +6,7 @@ def processar_resposta(resposta, nome):
     elif resposta == '2':
         print(f'{os.linesep}{nome} A média salarial de um programador Python é em torno de R$ 150.000,00 por ano,quando voçe atigir um certo nivel de experiencia.{os.linesep}')
     elif resposta == '3':
-        print(f'{os.linesep}{nome} pra se tornar um desenvolvedor você precisa estudar alguns temas que são muito relevantes para a profissão.\nÉ preciso se dedicar e estar sempre em busca de novos conhecimentos.\nUma boa forma de aprimorar seus conhecimentos e aprender muita coisa legal é estudar todos os dias e pratique muito,\nso assim terá sucesso.{os.linesep}')    
+        print(f'{os.linesep}{nome} pra se tornar um desenvolvedor você precisa estudar alguns temas que são muito relevantes para a profissão.\nÉ preciso se dedicar e estar sempre em busca de novos conhecimentos.\nUma boa forma de aprimorar seus conhecimentos e aprender muita coisa legal é estudar todos os dias e pratique muito,\so assim terá sucesso.{os.linesep}')    
     else:
         print('Digite apenas as opções 1, 2 ou 3')    
 
